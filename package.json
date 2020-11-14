@@ -1,0 +1,25 @@
+{
+  "name": "wedding-anniversary",
+  "version": "1.0.0",
+  "description": "mom and dad's 50th wedding anniversary commemoration page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pravin-menon/anniversary-page.git"
+  },
+  "author": "Pravin Menon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pravin-menon/anniversary-page/issues"
+  },
+  "homepage": "https://github.com/pravin-menon/anniversary-page#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0"
+  }
+}

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Prata';
+}
+#title {
+    background-color: #9b0e2b;
+    color: #000;
+}
+
+.container-fluid {
+    /* padding: 3% 5% 10%; */
+    padding: 0.5% 3%;
+}
+
+h1 {
+    font-family: 'Allura', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #fefce6;
+}
+
+h2 {
+    font-family: 'Prata';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fefce6;
+    text-align: center;
+}
+p {
+    color: #8f8f8f;
+    font-family: 'Prata';
+    font-size: 0.8rem;
+}
+
+/* .navbar {
+    padding: 0 0 4.5rem;
+} */
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-family: 'Prata';
+    color: #fefce6;
+}
+
+.title-img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    /* transform: rotate(20deg); */
+    /* position: absolute; */
+    /* right: 20%; */
+}
+
+#videos {
+    /* padding: 7% 15%; */
+    padding: 1% 10%;
+    background-color: #fefce6;
+    /* background-color: #65674c; */
+    /* position: relative; */
+    /*--z-index: 1;*/
+}
+
+#memories {
+    background-color: #9b0e2b;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item {
+    /* padding: 7% 15%; */
+    padding: 3% 15%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+}
+
+#footer {
+    background-color: #fefce6;
+    text-align: center;
+    padding: 1% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.row {
+    margin: 15px;
+}
